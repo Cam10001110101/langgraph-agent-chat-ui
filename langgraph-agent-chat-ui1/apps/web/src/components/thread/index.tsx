@@ -264,6 +264,9 @@ export function Thread() {
                 </Button>
               )}
             </div>
+            <div className="absolute top-2 right-4 flex items-center">
+              <OpenGitHubRepo />
+            </div>
           </div>
         )}
         {chatStarted && (
@@ -367,6 +370,14 @@ export function Thread() {
             }
             footer={
               <div className="sticky flex flex-col items-center gap-8 bottom-0 bg-white">
+                {!chatStarted && (
+                  <div className="flex gap-3 items-center">
+                    <LangGraphLogoSVG className="flex-shrink-0 h-8" />
+                    <h1 className="text-2xl font-semibold tracking-tight">
+                      Agent Chat
+                    </h1>
+                  </div>
+                )}
 
                 <ScrollToBottom className="absolute bottom-full left-1/2 -translate-x-1/2 mb-4 animate-in fade-in-0 zoom-in-95" />
 
