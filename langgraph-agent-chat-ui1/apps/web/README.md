@@ -5,7 +5,7 @@ Agent Chat UI is a Vite + React application which enables chatting with any Lang
 ## Setup
 
 > [!TIP]
-> Don't want to run the app locally? Use the deployed site here: [agent-chat-ui.vercel.app](https://agentchat.vercel.app)!
+> Don't want to run the app locally? Use the deployed site here: [langgraph-ui.demos.buiid](https://langgraph-ui.demos.buiid)!
 
 First, clone the repository:
 
