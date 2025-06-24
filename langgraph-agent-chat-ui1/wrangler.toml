@@ -1,0 +1,15 @@
+name = "langgraph-agent-chat-ui"
+compatibility_date = "2025-04-20"
+
+[build]
+command = "cd apps/web && npm run build"
+cwd = "."
+watch_dir = "apps/web"
+
+[build.upload]
+format = "modules"
+dir = "apps/web/dist"
+main = "./index.js"
+
+[[pages_build_output_dir]]
+directory = "apps/web/dist"
